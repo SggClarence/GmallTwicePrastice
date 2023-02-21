@@ -1,0 +1,25 @@
+server:
+  port: 8206
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+#    这个是把调用的通用mapper的sql语句打印到控制台上。
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: sgg1234
+    url: jdbc:mysql://localhost:3306/gmall_product?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+  redis:
+    host: 192.168.6.100
+    password:
+    database: 0
+    port: 6379
+  zipkin:
+    base-url: http://192.168.6.100:9411
+  rabbitmq:
+    host: 192.168.6.100
+    port: 5672
+    username: guest
+    password: guest

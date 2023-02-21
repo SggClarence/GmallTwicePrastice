@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace 定义接口的全路径-->
+<mapper namespace="com.atguigu.gmall.product.mapper.SpuSaleAttrMapper" >
+    <resultMap id="selectSpuSaleAttrListMap" type="com.atguigu.gmall.model.product.SpuSaleAttr" autoMapping="true">
+        <id property="id" column="id"></id>
+<!--        一对多的集合-->
+        <collection property="spuSaleAttrValueList" ofType="com.atguigu.gmall.model.product.SpuSaleAttrValue"
+                    autoMapping="true">
+            <id column="sale_attr_value_id" property="id"></id>
+        </collection>
+    </resultMap>
+
+    <resultMap id="spuSaleAttrMap" type="com.atguigu.gmall.model.product.SpuSaleAttr" autoMapping="true">
+        <id property="id" column="id"></id>
+        <result property="isChecked" column="is_checked" ></result>
+        <collection property="spuSaleAttrValueList" ofType="com.atguigu.gmall.model.product.SpuSaleAttrValue" autoMapping="true">
+            <id column="sale_attr_value_id" property="id"></id>
+        </collection>
+
+    </resultMap>
+
+    <select id="selectSpuSaleAttrList" resultMap="spuSaleAttrMap">
+        select
+        sa.id ,sa.spu_id, sa.sale_attr_name,sa.base_sale_attr_id,
+        ssav.id sale_attr_value_id,
+        ssav.sale_attr_value_name
+
+        from spu_sale_attr sa inner join spu_sale_attr_value ssav
+        on  ssav.spu_id=sa.spu_id and sa.id=ssav.base_sale_attr_id
+        where ssav.spu_id=#{spuId}
+
+
+    </select>
+
+    <select id="getSpuSaleAttrListCheckBySku" resultMap="selectSpuSaleAttrListMap">
+        select ssav.id ,ssav.base_sale_attr_id,ssav.sale_attr_name,sale_attr_value_name, sale_attr_value_id ,sku_id ,sku_sale_attr_value. spu_id
+             , if(sku_sale_attr_value.sku_id is null , 0, 1) is_checked
+        from spu_sale_attr inner join spu_sale_attr_value ssav on
+                    spu_sale_attr.base_sale_attr_id = ssav.base_sale_attr_id and spu_sale_attr.spu_id =ssav.spu_id
+                           left join sku_sale_attr_value on ssav.id=sku_sale_attr_value.sale_attr_value_id
+        where ssav.spu_id=#{spuId} and sku_sale_attr_value.sku_id=#{skuId}
+
+    </select>
+
+    
+    
+</mapper>
+
+
