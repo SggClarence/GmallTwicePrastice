@@ -1,0 +1,17 @@
+
+J
+java:S3740J"/Provide the parametrized type for this generic.(Ù˜Ä ùÿÿÿÿ
+E
+java:S3740^"/Provide the parametrized type for this generic.(¬â¦ß
+J
+java:S3740m"/Provide the parametrized type for this generic.(ú½‡ûÿÿÿÿ
+J
+java:S3740x"/Provide the parametrized type for this generic.(´»ˆ¶ıÿÿÿÿ
+t
+java:S1192&"YDefine a constant instead of duplicating this literal "è·å–ä¸€çº§åˆ†ç±»ä¿¡æ¯" 3 times.(®…ÜÅüÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(®…ÜÅüÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(®…ÜÅüÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(®…ÜÅüÿÿÿÿ
+c	java:S100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬â¦ß
+g
+java:S1128"LRemove this unused import 'com.atguigu.gmall.product.service.ManageService'.(˜äÚşúÿÿÿÿ

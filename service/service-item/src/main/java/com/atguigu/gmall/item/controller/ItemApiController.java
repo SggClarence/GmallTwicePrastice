@@ -2,6 +2,7 @@ package com.atguigu.gmall.item.controller;
 
 import com.atguigu.gmall.common.result.Result;
 import com.atguigu.gmall.item.service.ItemService;
+import com.atguigu.gmall.list.client.ListFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +24,6 @@ import java.util.Map;
 public class ItemApiController {
 
     @Autowired
-
     private ItemService itemService;
 
 
@@ -44,7 +44,14 @@ public class ItemApiController {
         Map<String,Object> result = itemService.getItemBySkuId(skuId);
         System.out.println("到item层了");
         return Result.ok(result);
-
     }
+
+
+
+//    显示的时候按照热点顺序进行显示
+
+
+
+
 
 }

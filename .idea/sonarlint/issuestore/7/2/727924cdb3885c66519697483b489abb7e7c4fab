@@ -1,0 +1,16 @@
+
+
+java:S14885"iImmediately return this expression instead of assigning it to the temporary variable "baseCategory1List".(äÊºª
+|
+java:S1488E"fImmediately return this expression instead of assigning it to the temporary variable "baseCategory2s".(ßŠ¯²
+|
+java:S1488U"fImmediately return this expression instead of assigning it to the temporary variable "baseCategory3s".(ƒáˆ°
+…
+java:S1488£"iImmediately return this expression instead of assigning it to the temporary variable "baseAttrValueList".(ÊÚ¡Éøÿÿÿÿ
+€
+java:S1488©"dImmediately return this expression instead of assigning it to the temporary variable "skuInfoPage1".(±ü·œþÿÿÿÿ
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(‰íÖÆýÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(œëã¯üÿÿÿÿ
+V	java:S125w"<This block of commented-out lines of code should be removed.(”«×Ãüÿÿÿÿ
+R	java:S125Š"<This block of commented-out lines of code should be removed.(‚Åž¾
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(ÆÈû°ûÿÿÿÿ

@@ -1,0 +1,8 @@
+
+v
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë™÷Á8´†¹´ì0
+‡
+java:S14880"jImmediately return this expression instead of assigning it to the temporary variable "threadPoolExecutor".(ë™÷Á8ƒ¾¹´ì0
+X	java:S125"<This block of commented-out lines of code should be removed.(ªÛé‘8´‰»´ì0
+c
+java:S1128"FRemove this unused import 'jodd.util.concurrent.ThreadFactoryBuilder'.(¯ŒÿÉ8ìÞ™µì0

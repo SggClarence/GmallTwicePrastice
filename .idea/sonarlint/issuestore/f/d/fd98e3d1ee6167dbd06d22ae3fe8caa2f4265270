@@ -1,0 +1,20 @@
+
+„
+java:S1488>"iImmediately return this expression instead of assigning it to the temporary variable "activityInfoPage1".(„¦žÜýÿÿÿÿ
+‚
+java:S1488R"gImmediately return this expression instead of assigning it to the temporary variable "couponInfoPage1".(¦Ÿùÿÿÿÿ
+z
+java:S1488{"dImmediately return this expression instead of assigning it to the temporary variable "activityInfo".(Ìÿô¦
+x
+java:S1488‚"bImmediately return this expression instead of assigning it to the temporary variable "couponInfo".(ØŒø
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÆƒÔ¼
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ÂÑÖ¨ÿÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(”Ç¹èÿÿÿÿÿ
+C
+java:S1602¥",Remove useless curly braces around statement(æ´¸Ù
+T	java:S106¼"9Replace this use of System.out or System.err by a logger.(†ÆêÉþÿÿÿÿ
+k
+java:S1128
+"IRemove this unused import 'com.baomidou.mybatisplus.core.metadata.IPage'.(¯à½ýÿÿÿÿ8Èÿ¸¢ä0
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ÞÛ8Èÿ¸¢ä0

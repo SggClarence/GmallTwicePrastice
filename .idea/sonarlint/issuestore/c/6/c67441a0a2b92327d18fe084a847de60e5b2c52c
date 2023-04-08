@@ -1,0 +1,20 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(‚Ê«
+E
+java:S3740e"/Provide the parametrized type for this generic.(Óºøë
+F
+java:S3740”"/Provide the parametrized type for this generic.(Óºøë
+V
+java:S2222Z";Unlock this lock along all executions paths of this method.(Êİûòıÿÿÿÿ
+u
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ëß‹™
+Q	java:S125O"<This block of commented-out lines of code should be removed.(˜™Ğ’
+V	java:S125c"<This block of commented-out lines of code should be removed.(î©íÿÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(öÜëÌşÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ
+K
+java:S1128"0Remove this unused import 'lombok.SneakyThrows'.(¨³üÖûÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'org.aspectj.lang.Signature'.(‘‡æ‰øÿÿÿÿ

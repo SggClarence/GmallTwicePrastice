@@ -1,0 +1,23 @@
+
+E
+java:S3740,"/Provide the parametrized type for this generic.(¿®Ã´
+E
+java:S3740,"/Provide the parametrized type for this generic.(¿®Ã´
+Q
+java:S1874/";Remove this use of "enableDefaultTyping"; it is deprecated.(¿Ä‡·
+Y
+java:S1128"CRemove this unused import 'org.springframework.cache.CacheManager'.(÷ë¿Û
+a
+java:S1128"KRemove this unused import 'org.springframework.cache.annotation.Cacheable'.(İºØ“
+j
+java:S1128	"ORemove this unused import 'org.springframework.cache.interceptor.KeyGenerator'.(ÙÏ’øÿÿÿÿ
+t
+java:S1128"YRemove this unused import 'org.springframework.data.redis.cache.RedisCacheConfiguration'.(ÏÀÉ®ûÿÿÿÿ
+i
+java:S1128"SRemove this unused import 'org.springframework.data.redis.cache.RedisCacheManager'.(îª¼î
+v
+java:S1128"`Remove this unused import 'org.springframework.data.redis.serializer.RedisSerializationContext'.(¨ˆì
+l
+java:S1128"VRemove this unused import 'org.springframework.data.redis.serializer.RedisSerializer'.(èÈ„­
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ

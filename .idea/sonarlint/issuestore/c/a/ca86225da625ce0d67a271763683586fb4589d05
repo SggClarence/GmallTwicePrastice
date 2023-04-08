@@ -1,0 +1,7 @@
+
+k	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(о–нцы€€€€
+d
+java:S1128"IRemove this unused import 'com.baomidou.mybatisplus.core.metadata.IPage'.(Эѓаљэ€€€€
+M
+java:S1128
+"+Remove this unused import 'java.util.List'.(’л±ƒш€€€€8£ЛЪҐд0

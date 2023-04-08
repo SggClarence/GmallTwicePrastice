@@ -1,0 +1,27 @@
+
+f
+java:S1192Ï"JDefine a constant instead of duplicating this literal "activity:" 5 times.(ÍÒõ ûÿÿÿÿ
+d
+java:S1192"HDefine a constant instead of duplicating this literal "coupon:" 5 times.(õ„äßşÿÿÿÿ
+U
+java:S1117"?Rename "totalAmount" which hides the field declared at line 37.(âè£Z
+_
+java:S1117"HRename "originalTotalAmount" which hides the field declared at line 113.(«üñ½
+]
+java:S1117‘"ARename "couponAmount" which hides the field declared at line 109.(ø†„øÿÿÿÿ
+`
+java:S1117­"IRename "activityReduceAmount" which hides the field declared at line 105.(´…ØÆ
+]
+java:S1117®"FRename "orderDetailVoList" which hides the field declared at line 132.(…ÿ‡¡
+i
+java:S3776À"RRefactor this method to reduce its Cognitive Complexity from 84 to the 15 allowed.(¦«Î²
+]
+java:S1117Ã"FRename "orderDetailVoList" which hides the field declared at line 132.(…ÿ‡¡
+Z
+java:S1117È"CRename "orderDetailList" which hides the field declared at line 95.(ÅÖº
+_
+java:S1117Ò"HRename "originalTotalAmount" which hides the field declared at line 113.( ÙÿÆ
+V
+java:S1117ƒ"?Rename "couponInfo" which hides the field declared at line 138.(²®Š
+_
+java:S1117“"HRename "originalTotalAmount" which hides the field declared at line 113.( ÙÿÆ

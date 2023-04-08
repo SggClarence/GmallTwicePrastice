@@ -1,0 +1,7 @@
+
+_
+java:S1128"IRemove this unused import 'com.atguigu.gmall.model.base.BaseMongoEntity'.(úáÅ
+f
+java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.annotation.TableField'.(òëğıÿÿÿÿÿ
+n
+java:S1128"SRemove this unused import 'org.springframework.data.mongodb.core.mapping.Document'.(ú™ïÊúÿÿÿÿ

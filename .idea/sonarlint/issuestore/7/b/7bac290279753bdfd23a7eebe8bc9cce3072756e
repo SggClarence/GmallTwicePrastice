@@ -1,0 +1,23 @@
+
+c
+java:S11921"MDefine a constant instead of duplicating this literal "category3_id" 3 times.(ÔûÑÄ
+€
+java:S14886"eImmediately return this expression instead of assigning it to the temporary variable "baseTrademark".(Ó£ûğúÿÿÿÿ
+z
+java:S14885"_Immediately return this expression instead of assigning it to the temporary variable "collect".(Ğ•¾ùÿÿÿÿ
+y
+java:S1488S"cImmediately return this expression instead of assigning it to the temporary variable "trademarkId".(Áß•ê
+u
+java:S1488W"_Immediately return this expression instead of assigning it to the temporary variable "collect".(š›ñ£
+A
+java:S1168;"+Return an empty collection instead of null.(¥¹ï
+U
+java:S1854i":Remove this useless assignment to local variable "delete".(Á·°ÿÿÿÿÿ
+F
+java:S1481i"+Remove this unused "delete" local variable.(Á·°ÿÿÿÿÿ
+A
+java:S1481{"+Remove this unused "insert" local variable.(Ö¬ğœ
+_
+java:S1128"DRemove this unused import 'org.springframework.util.JdkIdGenerator'.(®ÆÕúÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

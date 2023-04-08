@@ -32,6 +32,11 @@ public class RedissonConfig {
     private int connectionMinimumIdleSize=10;
     private int pingConnectionInterval = 60000;
     private static String ADDRESS_PREFIX = "redis://";
+    // 商品如果在数据库中不存在那么会缓存一个空对象进去，但是这个对象是没有用的，所以这个对象的过期时间应该不能太长，
+    // 如果太长会占用内存。
+    // 定义变量，记录空对象的缓存过期时间
+    public static final long SKUKEY_TEMPORARY_TIMEOUT = 10 * 60;
+
 
     /**
      * 自动装配

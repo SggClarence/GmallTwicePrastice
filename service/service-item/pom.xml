@@ -25,6 +25,12 @@
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>service-list-client</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
 
 
     </dependencies>
