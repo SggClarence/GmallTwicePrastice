@@ -23,16 +23,16 @@ public class PassportController {
      * @return
      */
 
-//    转发
+
         /**
              * @Date :2023/3/31 12:40
              * @param :[request]
              * @return :java.lang.String
-             * @description :
+             * @description ://    转发
              * @author :clarence
              */
         @GetMapping("login.html")
-    public String login(HttpServletRequest request){
+        public String login(HttpServletRequest request){
         System.out.println("转发到login页面");
         String originUrl = request.getParameter("originUrl");
         request.setAttribute("originUrl",originUrl);

@@ -16,6 +16,7 @@
         <module name="web-all" />
         <module name="service-product" />
         <module name="service-user" />
+        <module name="service-cart" />
         <module name="web-util" />
         <module name="service-list-client" />
         <module name="rabbit-util" />
@@ -34,6 +35,7 @@
       <module name="server-gateway" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service-activity" options="-parameters" />
+      <module name="service-cart" options="-parameters" />
       <module name="service-client" options="-parameters" />
       <module name="service-item" options="-parameters" />
       <module name="service-item-client" options="-parameters" />

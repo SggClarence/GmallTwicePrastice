@@ -5,8 +5,6 @@ t
 Dmodel/src/main/java/com/atguigu/gmall/model/order/OrderDetailVo.java,d\d\dd6556c9e07af287dcc65b6847e33f34313ad1a0
 s
 Cmodel/src/main/java/com/atguigu/gmall/model/order/OrderTradeVo.java,a\b\ab135da952a5a869df10bb3ccee6577d7089dc1e
-}
-Mserver-gateway/src/main/java/com/atguigu/gmall/gateway/comfig/CorsConfig.java,7\0\707d430cf43c17f632b9b9fcb55aab7f67b34661
 u
 Emodel/src/main/java/com/atguigu/gmall/model/order/OrderStatusLog.java,8\2\82acceeb5b521ab5096c8baf2b8c7648849b82fc
 x
@@ -25,18 +23,12 @@ Ycommon/rabbit-util/src/main/java/com/atguigu/gmall/common/config/MQProducerAckC
 Tcommon/rabbit-util/src/main/java/com/atguigu/gmall/common/service/RabbitService.java,f\6\f6a7c9e93b63f519194bff75b211a5670c67f4d6
 Ç
 Rcommon/common-util/src/main/java/com/atguigu/gmall/common/util/HttpClientUtil.java,3\d\3d037b5af5b283ecb5b87daa392f9dad8d53e7a3
-Ö
-Ucommon/common-util/src/main/java/com/atguigu/gmall/common/util/AuthContextHolder.java,7\d\7db2e2fad21c723c44818cbcce593ddc21020016
-Ñ
-Tcommon/common-util/src/main/java/com/atguigu/gmall/common/result/ResultCodeEnum.java,e\d\ed19c0c174b8f88a9dbbb9b77b6131efddf7ccaa
 
 Ocommon/rabbit-util/src/main/java/com/atguigu/gmall/common/constant/MqConst.java,d\3\d37d96c42a8321b3b1358adf40c03f997d280f30
 z
 Jcommon/common-util/src/main/java/com/atguigu/gmall/common/util/IpUtil.java,d\1\d1b0c275108cd1362a9616b6ec5c7410cbcce5bc
 |
 Lcommon/common-util/src/main/java/com/atguigu/gmall/common/util/DateUtil.java,7\b\7befdf28ae5c8e6d9aed9485697debeeced31ce7
-w
-Gcommon/common-util/src/main/java/com/atguigu/gmall/common/util/MD5.java,2\9\29e3a4a80a9ad27936611ab7aa198a9346b94469
 è
 _service/service-product/src/main/java/com/atguigu/gmall/product/mapper/BaseAttrValueMapper.java,c\6\c677ef82846a41cc336c2e9818685ba5f62bf7f4
 è
